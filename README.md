@@ -1,1 +1,1 @@
-# Tugas-Informatika-Kelas-X
+# Note my activities
