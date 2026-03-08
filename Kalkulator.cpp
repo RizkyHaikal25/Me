@@ -3,6 +3,7 @@
 using namespace std;
 
 float luas, sisi, alas, tinggi, panjang, lebar, a, b, c;
+int jarijari;
 int pilihan;
 
 int main(){
@@ -12,6 +13,7 @@ int main(){
     cout << "2. Persegi Panjang" << endl;
     cout << "3. Segitiga" << endl;
     cout << "4. Panjang miring Segitiga" << endl;
+    cout << "5. Lingkaran" << endl;
 
     cout << "masukan pilihan ";
     cin >> pilihan;
@@ -60,7 +62,27 @@ int main(){
         c = sqrt((a*a)+(b*b));
         cout << c << "cm" << endl;
     }
+
+    else if (pilihan == 5)
+    {
+        cout << "masukan jari jari = " << "cm";
+        cin >> jarijari;
+
+        if (jarijari % 7 == 0)
+        {
+            luas = 22/7 * jarijari * jarijari;
+        }
+        
+        else
+        {
+            luas = 3.14 * jarijari * jarijari;
+        }
+
+        cout << luas << "cm";
+        
+    }
     
+
     else
     {
         cout << "Ngasih input yang bener lah :/";
