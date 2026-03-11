@@ -1,2 +1,1 @@
-[vcpkg]
-(https://github.com/microsoft/vcpkg)
+[vcpkg](https://github.com/microsoft/vcpkg)
