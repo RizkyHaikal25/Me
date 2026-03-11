@@ -1,2 +1,2 @@
 # HI THERE 🦇👁️
-This is me with\ my random code
+This is me with my random code
