@@ -4,21 +4,21 @@ using namespace std;
 float EUR, GBP, AUD, NZD, JPY, USD;
 float EURUSD = 1.15;
 float GBPUSD = 1.33;
-float AUDUSD = 0.71;
+float AUDUSD = 0.69;
 float USDJPY = 159.00;
-float NZDUSD = 0.59;
+float NZDUSD = 0.57;
 int pilihan;
 
 int main()
 {
-    cout << "17/03/2026\n";
+    cout << "28/03/2026\n";
     cout << "==================\n";
     cout << "Currency Converter\n";
     cout << "1.EURUSD = 1.15\n";
     cout << "2.GBPUSD = 1.33\n";
-    cout << "3.AUDUSD = 0.71\n";
+    cout << "3.AUDUSD = 0.69\n";
     cout << "4.USDJPY = 159.00\n";
-    cout << "5.NZDUSD = 0.59\n";
+    cout << "5.NZDUSD = 0.57\n";
     cout << "==================\n";
     cout << "Choose one of the currency rate";
     cin >> pilihan;
